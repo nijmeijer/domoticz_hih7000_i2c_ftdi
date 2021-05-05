@@ -7,7 +7,7 @@ Under development. Requires domoticz hardware-timeout to be set to 1 min.
 
 Prerequesites
 -------------
-An FTDI USB-I2C module (for example FT232h)
+An FTDI USB-I2C module (for example FT232h), with a HIH7xxx sensor attached to it.
 
 Limitations
 ------------
