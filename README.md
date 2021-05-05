@@ -1,0 +1,1 @@
+# domoticz_hih7000_i2c_ftdi
