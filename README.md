@@ -15,8 +15,8 @@ Limitations
 Install
 -----------
 in folder domoticz/plugins  :
-git clone https://github.com/nijmeijer/domoticz_hih7000_i2c_ftdi
-This will create a folder named goodwe_rs485, containing the file "plugin.py" as expected by domoticz
+git clone https://github.com/nijmeijer/domoticz_hih7000_i2c_ftdi hih7000_ftdi
+This will create a folder named hih7000_ftdi, containing the file "plugin.py" as expected by domoticz
 
 Restart domoticz, and add the new HARDWARE.
 
