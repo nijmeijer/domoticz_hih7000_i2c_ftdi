@@ -6,7 +6,7 @@
 #   pyftdi
 #
 """
-<plugin key="HIH7121_FTDI" name="HIH7121 Temp/humidity sensor via I2C" author="Alex Nijmeijer" version="1.0.5">
+<plugin key="HIH7121_FTDI" name="HIH7121 Temp/humidity sensor via I2C" author="Alex Nijmeijer" version="1.0.6">
     <params>
         <param field="Address" label="FTDI Port" width="150px" required="true" default="ftdi://ftdi:232h:1/1"/>
     </params>
@@ -24,7 +24,7 @@ class BasePlugin:
         return
 
     def onStart(self):
-        Domoticz.Log("onStart called")
+        Domoticz.Log("onStart called FTDI-address=" + Parameters["Address"])
 
         self.i2c = I2c.I2cController()
         self.i2c.configure(Parameters["Address"], frequency=20e3) # Address example "ftdi://ftdi:232h:1/1"
