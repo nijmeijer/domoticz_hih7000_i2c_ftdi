@@ -6,7 +6,7 @@
 #   pyftdi
 #
 """
-<plugin key="HIH7121_FTDI" name="HIH7121 Temp/humidity sensor via I2C" author="Alex Nijmeijer" version="1.0.4">
+<plugin key="HIH7121_FTDI" name="HIH7121 Temp/humidity sensor via I2C" author="Alex Nijmeijer" version="1.0.5">
     <params>
         <param field="Address" label="FTDI Port" width="150px" required="true" default="ftdi://ftdi:232h:1/1"/>
     </params>
